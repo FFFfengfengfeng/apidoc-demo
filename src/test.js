@@ -1,7 +1,7 @@
 /**
- *  @api {get} /users/:user_id Request User Information
+ *  @api {post} /users/:user_id Request User Information
     @apiVersion 0.1.0
-    @apiName GetUser
+    @apiName AddUser
     @apiGroup User
     @apiPermission admin
  
@@ -10,7 +10,8 @@
     @apiExample Example usage:
     curl -i http://localhost:5000/users/2
  
-    @apiParam {Number} user_id 用户ID
+    @apiParam {Number} user_id The user's unique ID.
+    @apiParam {Number} user_name 用户名称
  
     @apiSuccess {String} name Name of the User.
     @apiSuccessExample {json} Success-Response:
