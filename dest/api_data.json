@@ -3,7 +3,7 @@
     "type": "get",
     "url": "/index/:user_id",
     "title": "Request User Information",
-    "version": "0.1.0",
+    "version": "1.6.2",
     "name": "Index",
     "group": "Index",
     "permission": [

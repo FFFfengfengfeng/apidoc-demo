@@ -4,6 +4,7 @@
     @apiName Index
     @apiGroup Index
     @apiPermission admin
+    @apiVersion 1.6.2
  
     @apiDescription API to get the user information.
  
